@@ -1,9 +1,9 @@
 
-function takeANumber(arrOfPeople,name) {
-  arrOfPeople.push(name);
-  let index = arrOfPeople.indexOf(name) + 1;
-  return `Welcome, ${name}. You are number ${index} in line.`
-  }
+// function takeANumber(arrOfPeople,name) {
+//   arrOfPeople.push(name);
+//   let index = arrOfPeople.indexOf(name) + 1;
+//   return `Welcome, ${name}. You are number ${index} in line.`
+//   }
 
 
 function nowServing(arr) {
