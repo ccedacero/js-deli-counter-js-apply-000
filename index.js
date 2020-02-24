@@ -5,7 +5,17 @@
 //   return `Welcome, ${name}. You are number ${index} in line.`
 //   }
 
+// let currentNum = 0; 
 
+// function ticketNumber(arr) {
+//   currentNum ++;
+//   arr.push(currentNum);
+// return `Your number is ${currentNum}`
+// }
+
+
+//not the first person in line
+//
 function nowServing(arr) {
   if (arr.length !== 0) {
     let nextInLine =  arr.shift();
